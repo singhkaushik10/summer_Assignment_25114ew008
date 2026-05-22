@@ -94,6 +94,6 @@ This repository now contains a compact checklist of important **C programming la
 ## 12) Good Practices
 - Write readable and modular code
 - Validate input and handle errors
-- Avoid buffer overflow (prefer `fgets`, avoid `gets`, and use width-limited `scanf` formats such as `%99s`)
+- Avoid buffer overflow (prefer `fgets`, avoid `gets`, and use width-limited `scanf` like `%99s` only with a 100-byte buffer)
 - Free dynamically allocated memory
 - Use warnings and compiler flags (`-Wall -Wextra`)
