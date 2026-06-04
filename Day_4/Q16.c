@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int start, end, n;
+    int temp, rem, sum;
+
+    printf("Enter starting number: ");
+    scanf("%d", &start);
+
+    printf("Enter ending number: ");
+    scanf("%d", &end);
+
+    printf("Armstrong numbers are:\n");
+
+    for (n = start; n <= end; n++) {
+        temp = n;
+        sum = 0;
+
+        while (temp > 0) {
+            rem = temp % 10;
+            sum = sum + rem * rem * rem;
+            temp = temp / 10;
+        }
+
+        if (sum == n) {
+            printf("%d\n", n);
+        }
+    }
+
+    return 0;
+}
