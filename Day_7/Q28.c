@@ -11,7 +11,7 @@ int main()
 {
     int n;
     printf("Enter a number: ");
-    scanf("%d",&n);
+    scanf("%d",&n);893067
     printf("Reverse number = %d",reverse(n));
     return 0;
 
