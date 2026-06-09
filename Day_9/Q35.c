@@ -5,13 +5,18 @@ int main()
 
     printf("enter the number of lines\n");
     scanf("%d",&n);
-    for(i=1;i<=n;i++)
+
+    for(i='A';i<'A'+n;i++)
     {
-        for(j=1;j<=i;j++) 
+        for(j='A';j<=i;j++) 
         {
-            printf("%d\t",i);  
+            printf("%C\t",i);  
         }
+        
         printf("\n"); 
     }
-    return 0;1612
-}
+    
+    return 0;
+    }
+
+
