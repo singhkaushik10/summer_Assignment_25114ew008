@@ -17,6 +17,4 @@ int main()
     printf("factorial of %d is %d",n,factorial(n));
     return 0;
 
-
-
 }
