@@ -8,7 +8,6 @@ int main(){
     printf("Enter Column of matrix A and Row of Matrix B : ");
     scanf("%d",&r_c);
 
-
     printf("Enter Column of matrix B : ");
     scanf("%d",&c);
 
@@ -25,8 +24,7 @@ int main(){
         for(int j=0;j<c;j++){
             printf("Enter element of Matrix B : ");
 
-
-            scanf("%d",&Mat_B[i][j]);
+            scanf("%d",&Mat_B[i][j]):
         }
     }
     int Mat[r][c];
